@@ -44,7 +44,7 @@ We preprocess and partition the [WanJuan Patent dataset](https://huggingface.co/
 │   ├── WanJuan_deal.json               # train+test+eval WanJuan datasets after preprocess
 │   └── WanJuan_deal_validation.json    # test+eval WanJuan datasets after preprocess
 └──task
-    ├── DNABERT_2                       # DNABERT_2
+    ├── DNABERT_2                       # DNABERT_2(please download the base model in DNABERT_2 repo)
     │   └── ...
     ├── LRB                             # downstream task datasets
     │   └── ...
