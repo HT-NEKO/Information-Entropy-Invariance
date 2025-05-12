@@ -52,7 +52,7 @@ We preprocess and partition the [WanJuan Patent dataset](https://huggingface.co/
     │       ├── convert_fna2csv.py      # Construct Dataset
     │       ├── split_data.py
     │       └── convert_ncbi2ucsc.py
-    └── Longbranch
+    └── LongBench
         └── t5-small                    # BART-SMALL(please download the base model in BART-SMALL repo)
             │   └── ...
             └── data                    # downstream task datasets(please download the datasets in LongBench repo)
