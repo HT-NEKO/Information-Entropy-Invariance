@@ -43,14 +43,20 @@ We preprocess and partition the [WanJuan Patent dataset](https://huggingface.co/
 ├── datasets
 │   ├── WanJuan_deal.json               # train+test+eval WanJuan datasets after preprocess
 │   └── WanJuan_deal_validation.json    # test+eval WanJuan datasets after preprocess
-└──task
-    ├── DNABERT_2                       # DNABERT_2(please download the base model in DNABERT_2 repo)
-    │   └── ...
-    ├── LRB                             # downstream task datasets
-    │   └── ...
-    ├── convert_fna2csv.py              # Construct Dataset
-    ├── split_data.py
-    └── convert_ncbi2ucsc.py
+└── tasks
+    ├── DNA
+    │   └── DNABERT_2                   # DNABERT_2(please download the base model in DNABERT_2 repo)
+    │       │   └── ...
+    │       ├── LRB                     # downstream task datasets(please download the base model in genomics-long-range-benchmark repo)
+    │       │   └── ...
+    │       ├── convert_fna2csv.py      # Construct Dataset
+    │       ├── split_data.py
+    │       └── convert_ncbi2ucsc.py
+    └── Longbranch
+        └── t5-small                    # BART-SMALL(please download the base model in BART-SMALL repo)
+            │   └── ...
+            └── data                    # downstream task datasets(please download the datasets in LongBench repo)
+                └── ...
 ```
 
 
@@ -101,6 +107,20 @@ eval_*.sh
 ```
 
 
+
+##  DNA Task
+### fine-tuneing
+run 
+```
+train_*.sh
+```
+
+### evaluation
+run 
+```
+eval_*.sh
+```
+
 ## Acknowledgement
 We sincerely appreciate the contributions of the following open-source initiatives, which have greatly supported the development of our work:
 - [GAU-alpha](https://github.com/ZhuiyiTechnology/GAU-alpha): Transformer model based on Gated Attention Unit.
@@ -109,3 +129,6 @@ We sincerely appreciate the contributions of the following open-source initiativ
 - [DNABERT_2](https://github.com/MAGICS-LAB/DNABERT_2): A foundation model trained on large-scale multi-species genome.
 - [Casual eQTL and OMIM Task](https://huggingface.co/datasets/InstaDeepAI/genomics-long-range-benchmark): genomics long-range benchmark.
 - [DNA Sequences](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/001/405/GCA_000001405.15_GRCh38/): Sequence data is provided for all single organism genome assemblies that are included in NCBI's Assembly resource.
+- [T5](https://huggingface.co/google-t5/t5-small): Text-To-Text Transfer Transformer
+- [Summarization](https://github.com/huggingface/transformers/tree/main/examples/pytorch/summarization): Finetuning and evaluating transformers on summarization tasks.
+- [LongBench](https://huggingface.co/datasets/THUDM/LongBench): Benchmark for bilingual, multitask, and comprehensive assessment of long context understanding capabilities of large language models.
