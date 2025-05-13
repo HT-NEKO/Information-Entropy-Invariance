@@ -1,0 +1,90 @@
+"2025-05-08 19:51:29"
+"eval_kyw.py --model_name_or_path /data/home/scv6872/run/kwli/infoscale/DNABERT_2/output/variant_effect_causal_eqtl/softmax_noCosScale/checkpoint-4400 --data_path /data/run01/scv6872/kwli/infoscale/LRB/variant_effect_causal_eqtl/1000 --kmer -1 --model_max_length 1000 --per_device_train_batch_size 32 --per_device_eval_batch_size 32 --gradient_accumulation_steps 1 --learning_rate 3e-5 --num_train_epochs 8 --save_steps 200 --fp16 --output_dir output/variant_effect_causal_eqtl --evaluation_strategy steps --eval_steps 200 --warmup_steps 50 --logging_steps 100000 --overwrite_output_dir False --log_level info --find_unused_parameters False --kyw_normalization InfoScale"
+{
+    "eval_loss": 1.545425534248352,
+    "eval_accuracy": 0.6368765515684947,
+    "eval_f1": 0.6340561551838476,
+    "eval_matthews_correlation": 0.28560707141039865,
+    "eval_precision": 0.6458065509668434,
+    "eval_recall": 0.6398623702068331,
+    "eval_runtime": 11.257,
+    "eval_samples_per_second": 787.247,
+    "eval_steps_per_second": 6.218
+}
+
+"2025-05-08 19:52:29"
+"eval_kyw.py --model_name_or_path /data/home/scv6872/run/kwli/infoscale/DNABERT_2/output/variant_effect_causal_eqtl/softmax_noCosScale/checkpoint-4400 --data_path /data/run01/scv6872/kwli/infoscale/LRB/variant_effect_causal_eqtl/3000 --kmer -1 --model_max_length 3000 --per_device_train_batch_size 32 --per_device_eval_batch_size 32 --gradient_accumulation_steps 1 --learning_rate 3e-5 --num_train_epochs 8 --save_steps 200 --fp16 --output_dir output/variant_effect_causal_eqtl --evaluation_strategy steps --eval_steps 200 --warmup_steps 50 --logging_steps 100000 --overwrite_output_dir False --log_level info --find_unused_parameters False --kyw_normalization InfoScale"
+{
+    "eval_loss": 1.8579432964324951,
+    "eval_accuracy": 0.5687203791469194,
+    "eval_f1": 0.5569574262927826,
+    "eval_matthews_correlation": 0.15770659226151293,
+    "eval_precision": 0.5842826694619148,
+    "eval_recall": 0.5737736755418558,
+    "eval_runtime": 31.7534,
+    "eval_samples_per_second": 279.089,
+    "eval_steps_per_second": 2.204
+}
+
+"2025-05-08 19:54:43"
+"eval_kyw.py --model_name_or_path /data/home/scv6872/run/kwli/infoscale/DNABERT_2/output/variant_effect_causal_eqtl/softmax_noCosScale/checkpoint-4400 --data_path /data/run01/scv6872/kwli/infoscale/LRB/variant_effect_causal_eqtl/5000 --kmer -1 --model_max_length 5000 --per_device_train_batch_size 32 --per_device_eval_batch_size 32 --gradient_accumulation_steps 1 --learning_rate 3e-5 --num_train_epochs 8 --save_steps 200 --fp16 --output_dir output/variant_effect_causal_eqtl --evaluation_strategy steps --eval_steps 200 --warmup_steps 50 --logging_steps 100000 --overwrite_output_dir False --log_level info --find_unused_parameters False --kyw_normalization InfoScale"
+{
+    "eval_loss": 1.9308326244354248,
+    "eval_accuracy": 0.5234709997743173,
+    "eval_f1": 0.5077237796193799,
+    "eval_matthews_correlation": 0.06270980276786958,
+    "eval_precision": 0.5339742978627753,
+    "eval_recall": 0.5289374586861871,
+    "eval_runtime": 101.8827,
+    "eval_samples_per_second": 86.982,
+    "eval_steps_per_second": 0.687
+}
+
+"2025-05-09 16:36:15"
+"eval_kyw.py --model_name_or_path /data/home/scv6872/run/kwli/infoscale/DNABERT_2/output/variant_effect_causal_eqtl/softmax_noCosScale/checkpoint-4400 --data_path /data/run01/scv6872/kwli/infoscale/LRB/variant_effect_causal_eqtl/1000 --kmer -1 --model_max_length 1000 --per_device_train_batch_size 32 --per_device_eval_batch_size 32 --gradient_accumulation_steps 1 --learning_rate 3e-5 --num_train_epochs 8 --save_steps 200 --fp16 --output_dir output/variant_effect_causal_eqtl --evaluation_strategy steps --eval_steps 200 --warmup_steps 50 --logging_steps 100000 --overwrite_output_dir False --log_level info --find_unused_parameters False --kyw_normalization InfoScale"
+{
+    "eval_loss": 1.545425534248352,
+    "eval_accuracy": 0.6368765515684947,
+    "eval_f1": 0.6340561551838476,
+    "eval_matthews_correlation": 0.28560707141039865,
+    "eval_precision": 0.6458065509668434,
+    "eval_recall": 0.6398623702068331,
+    "eval_auroc": 0.6762146515856552,
+    "eval_auprc": 0.6804897851505972,
+    "eval_runtime": 10.4192,
+    "eval_samples_per_second": 850.542,
+    "eval_steps_per_second": 6.718
+}
+
+"2025-05-09 16:37:14"
+"eval_kyw.py --model_name_or_path /data/home/scv6872/run/kwli/infoscale/DNABERT_2/output/variant_effect_causal_eqtl/softmax_noCosScale/checkpoint-4400 --data_path /data/run01/scv6872/kwli/infoscale/LRB/variant_effect_causal_eqtl/3000 --kmer -1 --model_max_length 3000 --per_device_train_batch_size 32 --per_device_eval_batch_size 32 --gradient_accumulation_steps 1 --learning_rate 3e-5 --num_train_epochs 8 --save_steps 200 --fp16 --output_dir output/variant_effect_causal_eqtl --evaluation_strategy steps --eval_steps 200 --warmup_steps 50 --logging_steps 100000 --overwrite_output_dir False --log_level info --find_unused_parameters False --kyw_normalization InfoScale"
+{
+    "eval_loss": 1.8579432964324951,
+    "eval_accuracy": 0.5687203791469194,
+    "eval_f1": 0.5569574262927826,
+    "eval_matthews_correlation": 0.15770659226151293,
+    "eval_precision": 0.5842826694619148,
+    "eval_recall": 0.5737736755418558,
+    "eval_auroc": 0.5917552513653693,
+    "eval_auprc": 0.5976540012996874,
+    "eval_runtime": 31.5008,
+    "eval_samples_per_second": 281.326,
+    "eval_steps_per_second": 2.222
+}
+
+"2025-05-09 16:39:31"
+"eval_kyw.py --model_name_or_path /data/home/scv6872/run/kwli/infoscale/DNABERT_2/output/variant_effect_causal_eqtl/softmax_noCosScale/checkpoint-4400 --data_path /data/run01/scv6872/kwli/infoscale/LRB/variant_effect_causal_eqtl/5000 --kmer -1 --model_max_length 5000 --per_device_train_batch_size 32 --per_device_eval_batch_size 32 --gradient_accumulation_steps 1 --learning_rate 3e-5 --num_train_epochs 8 --save_steps 200 --fp16 --output_dir output/variant_effect_causal_eqtl --evaluation_strategy steps --eval_steps 200 --warmup_steps 50 --logging_steps 100000 --overwrite_output_dir False --log_level info --find_unused_parameters False --kyw_normalization InfoScale"
+{
+    "eval_loss": 1.9308326244354248,
+    "eval_accuracy": 0.5234709997743173,
+    "eval_f1": 0.5077237796193799,
+    "eval_matthews_correlation": 0.06270980276786958,
+    "eval_precision": 0.5339742978627753,
+    "eval_recall": 0.5289374586861871,
+    "eval_auroc": 0.5563482177919452,
+    "eval_auprc": 0.5587924547367316,
+    "eval_runtime": 101.7118,
+    "eval_samples_per_second": 87.128,
+    "eval_steps_per_second": 0.688
+}
+

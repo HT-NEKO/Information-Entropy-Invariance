@@ -1,0 +1,90 @@
+"2025-05-08 22:06:15"
+"eval_kyw.py --model_name_or_path /data/home/scv6872/run/kwli/infoscale/DNABERT_2/output/variant_effect_causal_eqtl/softmax_CosScale-128/checkpoint-4400 --data_path /data/run01/scv6872/kwli/infoscale/LRB/variant_effect_causal_eqtl/1000 --kmer -1 --model_max_length 1000 --per_device_train_batch_size 32 --per_device_eval_batch_size 32 --gradient_accumulation_steps 1 --learning_rate 3e-5 --num_train_epochs 8 --save_steps 200 --fp16 --output_dir output/variant_effect_causal_eqtl --evaluation_strategy steps --eval_steps 200 --warmup_steps 50 --logging_steps 100000 --overwrite_output_dir False --log_level info --find_unused_parameters False --kyw_norm_method CosScale --kyw_norm_scale 128"
+{
+    "eval_loss": 0.6946744918823242,
+    "eval_accuracy": 0.49029564432408035,
+    "eval_f1": 0.4736272687363783,
+    "eval_matthews_correlation": -0.009288771532000417,
+    "eval_precision": 0.4949717263418912,
+    "eval_recall": 0.49571019387366877,
+    "eval_runtime": 10.6191,
+    "eval_samples_per_second": 834.53,
+    "eval_steps_per_second": 6.592
+}
+
+"2025-05-08 22:07:11"
+"eval_kyw.py --model_name_or_path /data/home/scv6872/run/kwli/infoscale/DNABERT_2/output/variant_effect_causal_eqtl/softmax_CosScale-128/checkpoint-4400 --data_path /data/run01/scv6872/kwli/infoscale/LRB/variant_effect_causal_eqtl/3000 --kmer -1 --model_max_length 3000 --per_device_train_batch_size 32 --per_device_eval_batch_size 32 --gradient_accumulation_steps 1 --learning_rate 3e-5 --num_train_epochs 8 --save_steps 200 --fp16 --output_dir output/variant_effect_causal_eqtl --evaluation_strategy steps --eval_steps 200 --warmup_steps 50 --logging_steps 100000 --overwrite_output_dir False --log_level info --find_unused_parameters False --kyw_norm_method CosScale --kyw_norm_scale 128"
+{
+    "eval_loss": 0.6908630728721619,
+    "eval_accuracy": 0.526404874746107,
+    "eval_f1": 0.5227739298590672,
+    "eval_matthews_correlation": 0.05979099588491063,
+    "eval_precision": 0.5305168696806462,
+    "eval_recall": 0.529286778315738,
+    "eval_runtime": 30.042,
+    "eval_samples_per_second": 294.987,
+    "eval_steps_per_second": 2.33
+}
+
+"2025-05-08 22:09:16"
+"eval_kyw.py --model_name_or_path /data/home/scv6872/run/kwli/infoscale/DNABERT_2/output/variant_effect_causal_eqtl/softmax_CosScale-128/checkpoint-4400 --data_path /data/run01/scv6872/kwli/infoscale/LRB/variant_effect_causal_eqtl/5000 --kmer -1 --model_max_length 5000 --per_device_train_batch_size 32 --per_device_eval_batch_size 32 --gradient_accumulation_steps 1 --learning_rate 3e-5 --num_train_epochs 8 --save_steps 200 --fp16 --output_dir output/variant_effect_causal_eqtl --evaluation_strategy steps --eval_steps 200 --warmup_steps 50 --logging_steps 100000 --overwrite_output_dir False --log_level info --find_unused_parameters False --kyw_norm_method CosScale --kyw_norm_scale 128"
+{
+    "eval_loss": 0.6965827345848083,
+    "eval_accuracy": 0.48589483186639587,
+    "eval_f1": 0.4476466691711076,
+    "eval_matthews_correlation": -0.01510804074831716,
+    "eval_precision": 0.4909262485481998,
+    "eval_recall": 0.4937111762299945,
+    "eval_runtime": 91.7498,
+    "eval_samples_per_second": 96.589,
+    "eval_steps_per_second": 0.763
+}
+
+"2025-05-09 16:41:12"
+"eval_kyw.py --model_name_or_path /data/home/scv6872/run/kwli/infoscale/DNABERT_2/output/variant_effect_causal_eqtl/softmax_CosScale-128/checkpoint-4400 --data_path /data/run01/scv6872/kwli/infoscale/LRB/variant_effect_causal_eqtl/1000 --kmer -1 --model_max_length 1000 --per_device_train_batch_size 32 --per_device_eval_batch_size 32 --gradient_accumulation_steps 1 --learning_rate 3e-5 --num_train_epochs 8 --save_steps 200 --fp16 --output_dir output/variant_effect_causal_eqtl --evaluation_strategy steps --eval_steps 200 --warmup_steps 50 --logging_steps 100000 --overwrite_output_dir False --log_level info --find_unused_parameters False --kyw_norm_method CosScale --kyw_norm_scale 128"
+{
+    "eval_loss": 0.6946744918823242,
+    "eval_accuracy": 0.49029564432408035,
+    "eval_f1": 0.4736272687363783,
+    "eval_matthews_correlation": -0.009288771532000417,
+    "eval_precision": 0.4949717263418912,
+    "eval_recall": 0.49571019387366877,
+    "eval_auroc": 0.500436305467553,
+    "eval_auprc": 0.5116741360626473,
+    "eval_runtime": 10.7733,
+    "eval_samples_per_second": 822.589,
+    "eval_steps_per_second": 6.498
+}
+
+"2025-05-09 16:42:09"
+"eval_kyw.py --model_name_or_path /data/home/scv6872/run/kwli/infoscale/DNABERT_2/output/variant_effect_causal_eqtl/softmax_CosScale-128/checkpoint-4400 --data_path /data/run01/scv6872/kwli/infoscale/LRB/variant_effect_causal_eqtl/3000 --kmer -1 --model_max_length 3000 --per_device_train_batch_size 32 --per_device_eval_batch_size 32 --gradient_accumulation_steps 1 --learning_rate 3e-5 --num_train_epochs 8 --save_steps 200 --fp16 --output_dir output/variant_effect_causal_eqtl --evaluation_strategy steps --eval_steps 200 --warmup_steps 50 --logging_steps 100000 --overwrite_output_dir False --log_level info --find_unused_parameters False --kyw_norm_method CosScale --kyw_norm_scale 128"
+{
+    "eval_loss": 0.6908630728721619,
+    "eval_accuracy": 0.526404874746107,
+    "eval_f1": 0.5227739298590672,
+    "eval_matthews_correlation": 0.05979099588491063,
+    "eval_precision": 0.5305168696806462,
+    "eval_recall": 0.529286778315738,
+    "eval_auroc": 0.5398931121692703,
+    "eval_auprc": 0.564909294282852,
+    "eval_runtime": 30.9764,
+    "eval_samples_per_second": 286.089,
+    "eval_steps_per_second": 2.26
+}
+
+"2025-05-09 16:44:14"
+"eval_kyw.py --model_name_or_path /data/home/scv6872/run/kwli/infoscale/DNABERT_2/output/variant_effect_causal_eqtl/softmax_CosScale-128/checkpoint-4400 --data_path /data/run01/scv6872/kwli/infoscale/LRB/variant_effect_causal_eqtl/5000 --kmer -1 --model_max_length 5000 --per_device_train_batch_size 32 --per_device_eval_batch_size 32 --gradient_accumulation_steps 1 --learning_rate 3e-5 --num_train_epochs 8 --save_steps 200 --fp16 --output_dir output/variant_effect_causal_eqtl --evaluation_strategy steps --eval_steps 200 --warmup_steps 50 --logging_steps 100000 --overwrite_output_dir False --log_level info --find_unused_parameters False --kyw_norm_method CosScale --kyw_norm_scale 128"
+{
+    "eval_loss": 0.6965827345848083,
+    "eval_accuracy": 0.48589483186639587,
+    "eval_f1": 0.4476466691711076,
+    "eval_matthews_correlation": -0.01510804074831716,
+    "eval_precision": 0.4909262485481998,
+    "eval_recall": 0.4937111762299945,
+    "eval_auroc": 0.46822045172895127,
+    "eval_auprc": 0.4933370719106178,
+    "eval_runtime": 91.5116,
+    "eval_samples_per_second": 96.84,
+    "eval_steps_per_second": 0.765
+}
+
