@@ -1,0 +1,25 @@
+#!/bin/bash
+module load miniforge gcc/11.1.0 cuda/11.8 
+module load cudnn/8.6.0_cuda11.x
+source activate bart-small
+export PYTHONUNBUFFERED=1
+export num_gpu=4
+DATASET=multi_news
+CHECKPOINT=/data/home/scv6872/run/kwli/infoscale/text-to-text-transfer-transformer-main/BART-SMALL/t5_checkpoint/multi_news/noCosScale/checkpoint-8433
+for SEQ_LEN in 1000 2000 3000
+do
+    TAT_LEN=$(( SEQ_LEN / 4 ))
+    python run_summarization.py \
+    --model_name_or_path $CHECKPOINT \
+    --do_predict \
+    --dataset_name $DATASET \
+    --dataset_config_name "3.0.0" \
+    --source_prefix "summarize: " \
+    --per_device_train_batch_size=4 \
+    --per_device_eval_batch_size=4 \
+    --overwrite_output_dir \
+    --predict_with_generate \
+    --kyw_normalization "InfoScale" \
+    --max_source_length $SEQ_LEN \
+    --max_target_length $TAT_LEN
+done

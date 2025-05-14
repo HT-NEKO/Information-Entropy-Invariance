@@ -1,0 +1,90 @@
+"2025-05-08 22:21:14"
+"eval_kyw.py --model_name_or_path /data/home/scv6872/run/kwli/infoscale/DNABERT_2/output/vep_pathogenic_coding/softmax_CosScale-128/checkpoint-1800 --data_path /data/run01/scv6872/kwli/infoscale/LRB/variant_effect_pathogenic/vep_pathogenic_coding//1000 --kmer -1 --model_max_length 1000 --per_device_train_batch_size 32 --per_device_eval_batch_size 32 --gradient_accumulation_steps 1 --learning_rate 3e-5 --num_train_epochs 8 --save_steps 200 --fp16 --output_dir output/variant_effect_causal_eqtl --evaluation_strategy steps --eval_steps 200 --warmup_steps 50 --logging_steps 100000 --overwrite_output_dir False --log_level info --find_unused_parameters False --kyw_norm_method CosScale --kyw_norm_scale 128"
+{
+    "eval_loss": 0.7133845090866089,
+    "eval_accuracy": 0.45284872298624756,
+    "eval_f1": 0.3132310211556326,
+    "eval_matthews_correlation": -0.00420272836307061,
+    "eval_precision": 0.4763779527559055,
+    "eval_recall": 0.49981306736974107,
+    "eval_runtime": 1.7711,
+    "eval_samples_per_second": 574.787,
+    "eval_steps_per_second": 4.517
+}
+
+"2025-05-08 22:21:36"
+"eval_kyw.py --model_name_or_path /data/home/scv6872/run/kwli/infoscale/DNABERT_2/output/vep_pathogenic_coding/softmax_CosScale-128/checkpoint-1800 --data_path /data/run01/scv6872/kwli/infoscale/LRB/variant_effect_pathogenic/vep_pathogenic_coding//3000 --kmer -1 --model_max_length 3000 --per_device_train_batch_size 32 --per_device_eval_batch_size 32 --gradient_accumulation_steps 1 --learning_rate 3e-5 --num_train_epochs 8 --save_steps 200 --fp16 --output_dir output/variant_effect_causal_eqtl --evaluation_strategy steps --eval_steps 200 --warmup_steps 50 --logging_steps 100000 --overwrite_output_dir False --log_level info --find_unused_parameters False --kyw_norm_method CosScale --kyw_norm_scale 128"
+{
+    "eval_loss": 0.7158177495002747,
+    "eval_accuracy": 0.4538310412573674,
+    "eval_f1": 0.31370009845718083,
+    "eval_matthews_correlation": 0.028527412938933894,
+    "eval_precision": 0.7266470009832842,
+    "eval_recall": 0.5008976660682226,
+    "eval_runtime": 3.857,
+    "eval_samples_per_second": 263.936,
+    "eval_steps_per_second": 2.074
+}
+
+"2025-05-08 22:22:05"
+"eval_kyw.py --model_name_or_path /data/home/scv6872/run/kwli/infoscale/DNABERT_2/output/vep_pathogenic_coding/softmax_CosScale-128/checkpoint-1800 --data_path /data/run01/scv6872/kwli/infoscale/LRB/variant_effect_pathogenic/vep_pathogenic_coding//5000 --kmer -1 --model_max_length 5000 --per_device_train_batch_size 32 --per_device_eval_batch_size 32 --gradient_accumulation_steps 1 --learning_rate 3e-5 --num_train_epochs 8 --save_steps 200 --fp16 --output_dir output/variant_effect_causal_eqtl --evaluation_strategy steps --eval_steps 200 --warmup_steps 50 --logging_steps 100000 --overwrite_output_dir False --log_level info --find_unused_parameters False --kyw_norm_method CosScale --kyw_norm_scale 128"
+{
+    "eval_loss": 0.7167319059371948,
+    "eval_accuracy": 0.45284872298624756,
+    "eval_f1": 0.3116970926301555,
+    "eval_matthews_correlation": 0.0,
+    "eval_precision": 0.22642436149312378,
+    "eval_recall": 0.5,
+    "eval_runtime": 10.8671,
+    "eval_samples_per_second": 93.677,
+    "eval_steps_per_second": 0.736
+}
+
+"2025-05-09 18:29:03"
+"eval_kyw.py --model_name_or_path /data/home/scv6872/run/kwli/infoscale/DNABERT_2/output/vep_pathogenic_coding/softmax_CosScale-128/checkpoint-1800 --data_path /data/run01/scv6872/kwli/infoscale/LRB/variant_effect_pathogenic/vep_pathogenic_coding/1000 --kmer -1 --model_max_length 1000 --per_device_train_batch_size 32 --per_device_eval_batch_size 32 --gradient_accumulation_steps 1 --learning_rate 3e-5 --num_train_epochs 8 --save_steps 200 --fp16 --output_dir output/vep_pathogenic_coding --evaluation_strategy steps --eval_steps 200 --warmup_steps 50 --logging_steps 100000 --overwrite_output_dir False --log_level info --find_unused_parameters False --kyw_norm_method CosScale --kyw_norm_scale 128"
+{
+    "eval_loss": 0.7133845090866089,
+    "eval_accuracy": 0.45284872298624756,
+    "eval_f1": 0.3132310211556326,
+    "eval_matthews_correlation": -0.00420272836307061,
+    "eval_precision": 0.4763779527559055,
+    "eval_recall": 0.49981306736974107,
+    "eval_auroc": 0.49431607971118907,
+    "eval_auprc": 0.4541473979268721,
+    "eval_runtime": 2.0604,
+    "eval_samples_per_second": 494.075,
+    "eval_steps_per_second": 3.883
+}
+
+"2025-05-09 18:29:23"
+"eval_kyw.py --model_name_or_path /data/home/scv6872/run/kwli/infoscale/DNABERT_2/output/vep_pathogenic_coding/softmax_CosScale-128/checkpoint-1800 --data_path /data/run01/scv6872/kwli/infoscale/LRB/variant_effect_pathogenic/vep_pathogenic_coding/3000 --kmer -1 --model_max_length 3000 --per_device_train_batch_size 32 --per_device_eval_batch_size 32 --gradient_accumulation_steps 1 --learning_rate 3e-5 --num_train_epochs 8 --save_steps 200 --fp16 --output_dir output/vep_pathogenic_coding --evaluation_strategy steps --eval_steps 200 --warmup_steps 50 --logging_steps 100000 --overwrite_output_dir False --log_level info --find_unused_parameters False --kyw_norm_method CosScale --kyw_norm_scale 128"
+{
+    "eval_loss": 0.7158177495002747,
+    "eval_accuracy": 0.4538310412573674,
+    "eval_f1": 0.31370009845718083,
+    "eval_matthews_correlation": 0.028527412938933894,
+    "eval_precision": 0.7266470009832842,
+    "eval_recall": 0.5008976660682226,
+    "eval_auroc": 0.5022665581418897,
+    "eval_auprc": 0.46343805145299183,
+    "eval_runtime": 4.1901,
+    "eval_samples_per_second": 242.953,
+    "eval_steps_per_second": 1.909
+}
+
+"2025-05-09 18:29:53"
+"eval_kyw.py --model_name_or_path /data/home/scv6872/run/kwli/infoscale/DNABERT_2/output/vep_pathogenic_coding/softmax_CosScale-128/checkpoint-1800 --data_path /data/run01/scv6872/kwli/infoscale/LRB/variant_effect_pathogenic/vep_pathogenic_coding/5000 --kmer -1 --model_max_length 5000 --per_device_train_batch_size 32 --per_device_eval_batch_size 32 --gradient_accumulation_steps 1 --learning_rate 3e-5 --num_train_epochs 8 --save_steps 200 --fp16 --output_dir output/vep_pathogenic_coding --evaluation_strategy steps --eval_steps 200 --warmup_steps 50 --logging_steps 100000 --overwrite_output_dir False --log_level info --find_unused_parameters False --kyw_norm_method CosScale --kyw_norm_scale 128"
+{
+    "eval_loss": 0.7167319059371948,
+    "eval_accuracy": 0.45284872298624756,
+    "eval_f1": 0.3116970926301555,
+    "eval_matthews_correlation": 0.0,
+    "eval_precision": 0.22642436149312378,
+    "eval_recall": 0.5,
+    "eval_auroc": 0.4990341814103288,
+    "eval_auprc": 0.4565953984430634,
+    "eval_runtime": 10.7538,
+    "eval_samples_per_second": 94.665,
+    "eval_steps_per_second": 0.744
+}
+
